@@ -1,10 +1,10 @@
-import "./App.scss";
+import "./App.css";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import Home from "./home";
 import Stuff from "./stuff";
 import Contact from "./contact";
 
-function App() {
+function App(array) {
   return (
     <BrowserRouter>
       <div className="App" style={{ padding: 20 }}>
